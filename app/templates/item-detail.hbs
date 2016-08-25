@@ -1,0 +1,9 @@
+<h1>Details:</h1>
+<h2>Item: {{model.name}}</h2>
+<h3>Description: {{model.description}}</h3>
+<h3>Price: ${{model.price}}</h3>
+<img src="{{item.imageURL}}" alt="{{item.name}}"/>
+
+
+<button class="btn btn-success"{{action 'addToCart' item}}>Add to Cart</button>
+<hr>

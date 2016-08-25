@@ -1,7 +1,5 @@
 {{#each model.items as |item|}}
-  <p>
-    {{item.name}}
-  </p>
+  <p>Item: {{item.name}}</p>
   {{item-update item=item update='update' destroyItem="destroyItem"}}
 {{/each}}
 <hr>
